@@ -28,7 +28,7 @@ Description.prototype.parse = function(md) {
   this.md = '' + md;
   var tokens = lexer.lex(md);
   var parser = new Parser({renderer: renderer});
-  this.txt = (parser.parse(tokens) || '').replace(/\s+$/, '');
+  this.txt = parser.parse(tokens).replace(/\s+$/, '');
 }
 
 /**
