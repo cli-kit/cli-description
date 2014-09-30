@@ -11,7 +11,7 @@ Description
 
 Description parsing for the [command](https://github.com/freeformsystems/cli-command) module, a component of the [toolkit](https://github.com/freeformsystems/cli-toolkit).
 
-Represents a string as an object containing the propertes `md` (markdown) and `txt` (plain text).
+Represents a string as an object containing the properties `md` (markdown) and `txt` (plain text).
 
 ## Install
 
